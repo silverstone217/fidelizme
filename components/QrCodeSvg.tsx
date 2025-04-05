@@ -21,7 +21,7 @@ const QrCodeSvg = () => {
       </Text>
 
       <QRCode
-        value={JSON.stringify(user.number)}
+        value={user.number}
         color={"#000"}
         backgroundColor={"#fff"}
         size={width * 0.8}
